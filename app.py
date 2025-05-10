@@ -23,7 +23,8 @@ with open('scaler.pkl', 'rb') as file:
 
 st.title("Customer Chrun Prediction")
 
-geography = st.selectbox("Geography",onehot_encoder_geo.categories[0])
+data = pd.read_csv("Churn_Modelling.csv")
+geography = st.selectbox("Geography", data["Geography"].unique())
 gender  = st.selectbox('Gender',label_encoder_gender.classes_)
 age=st.slider ('Age',18,92)
 balance = st.number_input('Balance')
