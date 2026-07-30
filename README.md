@@ -25,7 +25,7 @@ This project trains a feed-forward neural network on the classic `Churn_Modellin
 ## Getting Started
 
 ```bash
-git clone https://github.com/<your-username>/ANN-Classification-Chrun-Rate.git
+git clone https://github.com/MayankParkar/ANN-Classification-Chrun-Rate.git
 cd ANN-Classification-Chrun-Rate
 pip install -r requirements.txt
 streamlit run app.py
